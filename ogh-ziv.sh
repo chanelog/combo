@@ -140,9 +140,9 @@ THEMEF="$DIR/theme.conf"
 MLDB="$DIR/maxlogin.db"   # format: username|maxdevice
 BINARY_URL="https://github.com/fauzanihanipah/ziv-udp/releases/download/udp-zivpn/udp-zivpn-linux-amd64"
 CONFIG_URL="https://raw.githubusercontent.com/fauzanihanipah/ziv-udp/main/config.json"
-SCRIPT_VERSION="1.3"
-SCRIPT_URL="https://raw.githubusercontent.com/chanelog/max/main/ogh-ziv.sh"
-VERSION_URL="https://raw.githubusercontent.com/chanelog/max/main/version.txt"
+SCRIPT_VERSION="1.1"
+SCRIPT_URL="https://raw.githubusercontent.com/chanelog/combo/main/ogh-ziv.sh"
+VERSION_URL="https://raw.githubusercontent.com/chanelog/combo/main/version.txt"
 
 # ── UTILS ──────────────────────────────────────────────────
 check_root() { [[ $EUID -ne 0 ]] && { echo -e "\n\033[1;31m✘ Jalankan sebagai root!\033[0m\n"; exit 1; }; }
