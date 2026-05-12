@@ -1,0 +1,13 @@
+{
+  "udp_server1": {
+    "label": "🇮🇩 Indonesia UDP",
+    "enabled": true,
+    "host": "ISI_IP_VPS_KAMU_DISINI",
+    "udp_port": "1-65535",
+    "api_url": "",
+    "api_key": "",
+    "note": "Server UDP SocksIP Indonesia",
+    "stock": -1,
+    "is_local": true
+  }
+}
